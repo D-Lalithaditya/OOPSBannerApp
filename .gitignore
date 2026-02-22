@@ -1,0 +1,18 @@
+.vscode/
+
+# compiled class file
+*.class
+*.jar
+*.log
+
+#Other file exclusions
+.DS_Store
+*.iml
+
+#build folders exclusion
+.idea/
+target/
+bin/
+out/
+build/
+dist/
