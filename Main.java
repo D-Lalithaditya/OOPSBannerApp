@@ -1,9 +1,46 @@
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println(" OOO    OOO   OOOO   SSSS ");
-        System.out.println("O   O  O   O  O   O  S    ");
-        System.out.println("O   O  O   O  OOOO   SSSS  ");
-        System.out.println("O   O  O   O  O         S  ");
-        System.out.println(" OOO    OOO   O      SSSS  ");
+
+        String line1 = String.join(" ",
+                " OOO  ",
+                " OOO  ",
+                "PPPPP ",
+                " SSSS "
+        );
+
+        String line2 = String.join(" ",
+                "O   O ",
+                "O   O ",
+                "P    P",
+                "S     "
+        );
+
+        String line3 = String.join(" ",
+                "O   O ",
+                "O   O ",
+                "PPPPP ",
+                " SSSS "
+        );
+
+        String line4 = String.join(" ",
+                "O   O ",
+                "O   O ",
+                "P     ",
+                "     S"
+        );
+
+        String line5 = String.join(" ",
+                " OOO  ",
+                " OOO  ",
+                "P     ",
+                " SSSS "
+        );
+
+        System.out.println(line1);
+        System.out.println(line2);
+        System.out.println(line3);
+        System.out.println(line4);
+        System.out.println(line5);
     }
 }
